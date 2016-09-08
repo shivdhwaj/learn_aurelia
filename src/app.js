@@ -13,7 +13,7 @@ export class App {
     config.map([
       { route: '',              moduleId: 'no-selection',   title: 'Select'},
       { route: 'contacts/:id',  moduleId: 'contact-detail', name:'contacts' },
-      { route: 'contacts/:add',  moduleId: 'contact-add',title: 'Add Contact', name:'add contacts' }
+      { route: 'add/',  moduleId: 'contact-add',title: 'Add Contact', name:'add_contacts' }
     ]);
 
     this.router = router;
